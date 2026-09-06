@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Poljen</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         MAIN BIRTHDAY SCREEN
+    ================================== -->
+
+    <div class="birthday-screen">
+
+        <!-- LEFT SIDE -->
+        <div class="birthday-text">
+
+            <h1>
+                <span>Happy</span>
+                <strong>Birthday</strong>
+            </h1>
+
+            <div class="date">
+                ★ &nbsp; 26 September &nbsp; ★
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT SIDE -->
+        <div class="birthday-person">
+
+            <!-- BALLOONS -->
+            <div class="balloon balloon-yellow"></div>
+            <div class="balloon balloon-pink"></div>
+            <div class="balloon balloon-red"></div>
+
+
+            <!-- MAIN PHOTO -->
+            <div class="main-photo">
+
+                <img src="download.jpg"
+                     alt="Birthday Picture">
+
+            </div>
+
+
+            <!-- DEAR BUTTON -->
+            <button class="dear-button"
+                    onclick="openLetter()">
+
+                Dear Poljen
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================
+         LETTER OVERLAY
+    ================================== -->
+
+    <div class="letter-overlay"
+         id="letterOverlay">
+
+        <!-- CLOSE -->
+        <button class="close-button"
+                onclick="closeLetter()">
+            ×
+        </button>
+
+
+        <!-- =================================
+             BOOK
+        ================================== -->
+
+        <div class="book"
+             id="book">
+
+
+            <!-- =================================
+                 COVER
+            ================================== -->
+
+            <div class="cover"
+                 id="cover"
+                 onclick="openCover()">
+
+                <img src="download.jpg"
+                     alt="Poljen">
+
+                <div class="to">
+                    ♡ To: Poljen
+                </div>
+
+                <h2>
+                    HAPPY<br>
+                    BIRTHDAY
+                </h2>
+
+                <p class="click-text">
+                    Click the cover 💌
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================
+                 PAGE 1
+            ================================== -->
+
+            <div class="page page1"
+                 id="page1">
+
+                <div class="page-content">
+
+                    <span class="page-number">
+                        01
+                    </span>
+
+                    <h2>
+                        Happy Birthday! 🎂
+                    </h2>
+
+                    <p>
+                        I have something for you nga pag-open
+                        nimo ani, ma-happy gyud ka,
+                        kay kabalo ko nga ganahan
+                        gyud ka nga ginahatagan ka og ing-ani.
+                        Dili man ni siya hard paper
+                        nga imong mahikap or magunitan,
+                        pero ma-view gihapon nimo hehehe. ❤️
+                    </p>
+
+                    <p>
+                        Guess daw? Or pass? HAHAHA 😆
+                    </p>
+
+                    <p>
+                        I have something nga letter E nga
+                        kung i-click or i-touch nimo,
+                        naa kay mabasa nga nice kaayo nga message.
+                        Very emotional siya, and syempre,
+                        gihuna-hunaan gyud nako ni pag-ayo
+                        kay gusto nako nga special gyud siya para nimo.
+                    </p>
+
+                    <p>
+                        So… are you ready to click it? 👀❤️
+                    </p>
+
+                    <button onclick="nextPage()">
+                        Continue 💌
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 PAGE 2
+            ================================== -->
+
+            <div class="page page2"
+                 id="page2">
+
+                <div class="page-content">
+
+                    <span class="page-number">
+                        02
+                    </span>
+
+                    <h2>
+                        Sharan Letter "P"
+                    </h2>
+
+                    <h3>
+                        P stands for
+                    </h3>
+
+                    <div class="letter-text">
+
+                        <h4>haP🙂</h4>
+
+                        <h4>haP birthday! 🥳</h4>
+
+                        <h4>
+                            P means it's you, ValeryP 😌
+                        </h4>
+
+                        <h4>
+                            P means Pretty and Pute 😉 HAHAHAHA
+                        </h4>
+
+                    </div>
+
+                    <p>
+                        Unsa pa? "P" 🤔
+                    </p>
+
+                    <p>
+                        Ay naa pa diay!
+                        P means 🧍
+                        Basta ikaw na’y sabot sa emoji
+                        HAHAHAHA. Ragebait lang sa ta gamay. 😉
+                    </p>
+
+                    <p>
+                        P means?? 🤨
+                        Kabantay ka anang naka-orange
+                        nga naa sa jail?
+                        Naa’y P ilang likod, no? 👀
+                    </p>
+
+                    <p>
+                        Pwede na ka ana 🙃 HAHAHAHAHA
+                    </p>
+
+                    <button onclick="nextPage()">
+                        Continue 🌷
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 PAGE 3
+            ================================== -->
+
+            <div class="page page3"
+                 id="page3">
+
+                <div class="page-content">
+
+                    <span class="page-number">
+                        03
+                    </span>
+
+                    <h2>
+                        Happy Birthday to my SM 😅🥳💗
+                    </h2>
+
+                    <p>
+                        Finallyyy, you've escaped the age of 13!
+                        Basin i-deny pa nimo ha! 😭😂
+                        14 na biya ka!
+                        Katorse na para mag-32!
+                    </p>
+
+                    <p>
+                        I just want you to know how thankful
+                        I am to have you in my life.
+                        You're not just my amigo,
+                        but also someone I can talk to,
+                        laugh with, and share random things
+                        with anytime—labi na gyud sa mga random
+                        reels nga sige nimog send. 🫠😂
+                    </p>
+
+                    <p>
+                        I hope your birthday is filled with
+                        happiness, love, and unforgettable memories.
+                        May you achieve all your dreams and goals,
+                        and may you always have reasons to smile. 😉
+                    </p>
+
+                    <button onclick="nextPage()">
+                        Continue 💕
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 PAGE 4
+            ================================== -->
+
+            <div class="page page4"
+                 id="page4">
+
+                <div class="page-content">
+
+                    <span class="page-number">
+                        04
+                    </span>
+
+                    <h2>
+                        A Little Message 💗
+                    </h2>
+
+                    <p>
+                        Enjoy your special day, et!
+                        You deserve all the good
+                        things in life. 🫶🏻❤️
+                    </p>
+
+                    <p>
+                        And again…
+                    </p>
+
+                    <p>
+                        Happy birthday!
+                        Happy birthdayy!
+                        Happy birthday!
+                        Happyyy birthdayyy, Poljenn! 🫰🫰
+                    </p>
+
+                    <p>
+                        Stay funny, stay pretty,
+                        and stay… P. 🙃
+                    </p>
+
+                    <button onclick="nextPage()">
+                        One More 💖
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================
+                 PAGE 5 - VIDEO
+            ================================== -->
+
+            <div class="page page5"
+                 id="page5">
+
+                <div class="page-content">
+
+                    <span class="page-number">
+                        05
+                    </span>
+
+                    <h2>
+                       viral video 😉
+                    </h2>
+
+
+                    <!-- VIDEO -->
+                    <div class="video-box">
+
+                        <video controls playsinline>
+
+                            <source src="poljensbd.mp4"
+                                    type="video/mp4">
+
+                            Your browser does not support
+                            the video tag.
+
+                        </video>
+
+                    </div>
+
+
+                    <h3>
+                        Happy Birthday! 🎂💗
+                    </h3>
+
+
+                    <button onclick="closeLetter()">
+                        Finish ❤️
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================
+         JAVASCRIPT
+    ================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
